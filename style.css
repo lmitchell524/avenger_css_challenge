@@ -1,3 +1,83 @@
-h1 {
-    color: red;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/************** header ***********/
+
+header {
+    position: relative;
+    height: 15vh;
+}
+
+.name-panel {
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 10;
+    left: 2%;
+    top: 15%;
+}
+
+.tl {
+    position: absolute;
+}
+
+.navbar {
+    /* height: 15vh; */
+    position: relative;
+    top: 25%;
+    right: 6%;
+}
+
+.navbar > ul {
+    float: right;
+}
+
+.navbar > ul > li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+
+.li-text {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    margin: 0;
+}
+
+.indicator {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.tr {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/************** center content ***********/
+
+.pg1-1 {
+    clear: both;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.pg1-1 img {
+    width: 70vw;
+    height: 40vh;
 }
